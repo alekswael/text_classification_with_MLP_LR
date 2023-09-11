@@ -1,22 +1,9 @@
 <br />
-  <h1 align="center">Assignment 2: Text classification benchmarks</h1> 
-  <h2 align="center">Cultural Data Science, 2023</h2> 
+  <h1 align="center">Text classification benchmarks</h1> 
   <h3 align="center">
   Author: Aleksander Moeslund Wael <br>
-  Student no. 202005192
   </h3>
 </p>
-
-## Assignment notes (Ross)
-
-This assignment is about using ```scikit-learn``` to train simple (binary) classification models on text data. For this assignment, we'll continue to use the Fake News Dataset that we've been working on in class.
-
-For this exercise, you should write *two different scripts*. One script should train a logistic regression classifier on the data; the second script should train a neural network on the same dataset. Both scripts should do the following:
-
-- Be executed from the command line
-- Save the classification report to the folder called ```out```
-- Save the trained models and vectorizers to the folder called ```models```
----
 
 ## About the project
 This repo contains a collection of Python scripts for preprocessing, training and predicting classes of text data. There are three scripts involved in this process, all located in the `src` folder; `vectorizer.py`, which is the script for preprocessing and extracting features from the text data using tf-idf. Then there are two classification scripts, `logistic_regression.py` and `neural_network.py`, each using either logistic regression or a MLP classifier for binary classification and then saving a classification report for analysis or other use.
@@ -53,8 +40,8 @@ The repo was setup to work with Windows (the WIN_ files), MacOS and Linux (the M
 ### 1. Clone repository to desired directory
 
 ```bash
-git clone https://github.com/alekswael/assignment-2---text-classification
-cd assignment-2---text-classification-alekswael
+git clone https://github.com/alekswael/text_classification_with_MLP_LR
+cd text_classification_with_MLP_LR
 ```
 ### 2. Run setup script 
 **NOTE:** Depending on your OS, run either `WIN_setup.sh` or `MACL_setup.sh`.
